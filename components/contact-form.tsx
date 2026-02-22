@@ -14,11 +14,6 @@ import {
 } from '@/components/ui/select';
 import { Card, CardContent } from '@/components/ui/card';
 import { Loader2, CheckCircle } from 'lucide-react';
-import { createClient } from '@supabase/supabase-js';
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
@@ -40,18 +35,15 @@ export function ContactForm() {
     setSubmitStatus('idle');
 
     try {
-      const { error } = await supabase.from('contact_inquiries').insert([
-        {
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          client_type: formData.clientType,
-          service_type: formData.serviceType,
-          message: formData.message,
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
         },
-      ]);
+        body: JSON.stringify(formData),
+      });
 
-      if (error) throw error;
+      if (!response.ok) throw new Error('Failed to submit');
 
       setSubmitStatus('success');
       setFormData({
