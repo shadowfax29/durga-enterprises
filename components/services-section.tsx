@@ -15,7 +15,7 @@ const services = [
     icon: Armchair,
     title: 'Chairs',
     description:
-      'Premium office chairs, dining chairs, and accent chairs for every style and budget.',
+      'Premium office chairs, dining chairs, and chairs for every style and budget.',
     features: ['Ergonomic Design', 'Durable Materials', 'Custom Options'],
   },
   {
@@ -27,38 +27,66 @@ const services = [
   },
   {
     icon: Blinds,
-    title: 'Rolling Blinds',
+    title: 'Roller Blinds',
     description:
       'Motorized and manual rolling blinds for perfect light control and privacy.',
-    features: ['Motorization Available', 'Energy Efficient', 'Easy Maintenance'],
+    features: ['Washing Available', "Repair & services", 'Easy Maintenance'],
   },
   {
     icon: Blinds,
     title: 'Vertical Blinds',
     description:
       'Elegant vertical blinds ideal for large windows and patio doors.',
-    features: ['Wide Coverage', 'Easy Operation', 'Variety of Materials'],
+    features: ['Wide Coverage', 'Easy Operation', 'Variety of Materials',"Repair & services"],
   },
   {
     icon: Grid3x3,
     title: 'Vinyl Flooring',
     description:
       'Water-resistant vinyl flooring with realistic wood and stone patterns.',
-    features: ['Waterproof Options', 'Easy Installation', 'Low Maintenance'],
+    features: ['Waterproof Options', 'Easy Installation', 'Low Maintenance',"Repair & services"],
   },
+  // {
+  //   icon: Layers,
+  //   title: 'Tiles',
+  //   description:
+  //     'Ceramic, porcelain, and natural stone tiles for floors and walls.',
+  //   features: ['Variety of Styles', 'Durable Finish', 'Professional Install'],
+  // },
   {
-    icon: Layers,
-    title: 'Tiles',
-    description:
-      'Ceramic, porcelain, and natural stone tiles for floors and walls.',
-    features: ['Variety of Styles', 'Durable Finish', 'Professional Install'],
-  },
+  icon: Blinds,
+  title: 'Mosquito Mesh',
+  description:
+    'High-quality mosquito mesh solutions for windows and doors with long-lasting durability.',
+  features: ['Custom Fitting', 'Durable Frames', 'Easy Maintenance'],
+},
+{
+  icon: Armchair,
+  title: 'Cafeteria Chairs',
+  description:
+    'Comfortable and stylish cafeteria chairs suitable for schools, offices, and restaurants.',
+  features: ['Stackable Design', 'Strong Frame', 'Modern Look'],
+},
+{
+  icon: Grid3x3,
+  title: 'Workstation Tables',
+  description:
+    'Modern workstation tables designed for productivity and office efficiency.',
+  features: ['Cable Management', 'Modular Design', 'Custom Sizes'],
+},
+{
+  icon: Layers,
+  title: 'Aluminium Partitions',
+  description:
+    'Premium aluminium partition systems for offices and commercial spaces.',
+  features: ['Sound Insulation', 'Modern Finish', 'Durable Structure'],
+},  
   {
     icon: Package,
     title: 'Carpet Rolls',
     description:
       'High-quality carpet rolls in various textures, colors, and pile heights.',
-    features: ['Stain Resistant', 'Sound Absorption', 'Comfort Padding'],
+    features: ['Stain Resistant', 'Comfort Padding'],
   },
   {
     icon: Package,

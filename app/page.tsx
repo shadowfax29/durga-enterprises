@@ -116,7 +116,7 @@ export default function HomePage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-3xl mx-auto">
               {[
                 { value: '500+', label: 'Projects Completed' },
-                { value: '15+', label: 'Years Experience' },
+                { value: '6+', label: 'Years Experience' },
                 { value: '100%', label: 'Satisfaction Rate' },
                 { value: '24/7', label: 'Support Available' },
               ].map((stat) => (

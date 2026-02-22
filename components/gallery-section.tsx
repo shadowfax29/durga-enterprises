@@ -58,14 +58,7 @@ export function GallerySection() {
               <div className="relative aspect-video bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center p-6">
-                    <div className="w-16 h-16 rounded-full bg-white/90 flex items-center justify-center mx-auto mb-3">
-                      <span className="text-2xl font-bold text-emerald-600">
-                        {item.category.charAt(0)}
-                      </span>
-                    </div>
-                    <Badge className="bg-emerald-600 hover:bg-emerald-700">
-                      {item.category}
-                    </Badge>
+                   <img src='./assets/office'/>
                   </div>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
