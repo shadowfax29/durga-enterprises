@@ -5,34 +5,41 @@ import { Badge } from '@/components/ui/badge';
 import Image from 'next/image'
 
 import office from "./assets/office.jpeg"
+import blinds from "./assets/blinds.jpeg"
 const galleryItems = [
   {
     category: 'Furniture',
+    image:office,
     title: 'Modern Office Setup',
     description: 'Complete office furniture installation with ergonomic chairs',
   },
   {
     category: 'Blinds',
+    image:blinds,
     title: 'Motorized Rolling Blinds',
     description: 'Smart home integration with automated window treatments',
   },
   {
     category: 'Flooring',
+    image:office,
     title: 'Luxury Vinyl Planks',
     description: 'Waterproof vinyl flooring with realistic wood texture',
   },
   {
     category: 'Carpet',
+    image:office,
     title: 'Corporate Carpet Tiles',
     description: 'Modular carpet solution for a modern office space',
   },
   {
     category: 'Furniture',
+    image:office,
     title: 'Living Room Transformation',
     description: 'Premium sofas and accent chairs for residential project',
   },
   {
     category: 'Flooring',
+    image:office,
     title: 'Porcelain Tile Installation',
     description: 'High-end ceramic tiles for kitchen and bathroom',
   },
@@ -61,7 +68,7 @@ export function GallerySection() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center p-6">
 <Image
-      src={office}
+      src={item.image}
       width={500}
       height={500}
       alt="Picture of the author"
