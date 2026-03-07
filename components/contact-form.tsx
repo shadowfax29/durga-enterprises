@@ -187,7 +187,7 @@ export function ContactForm() {
                 Submitting...
               </>
             ) : (
-              'Request Free Quote'
+              'Submit'
             )}
           </Button>
 

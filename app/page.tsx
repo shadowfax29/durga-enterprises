@@ -38,8 +38,8 @@ export default function HomePage() {
 <Image
   src={durgalogo}
   alt="logo"
-  width={40}
-  height={40}
+  width={64}
+  height={64}
   className="object-contain"
 />
             <span className="text-xl font-bold text-slate-900">
@@ -224,9 +224,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                Get Your Free Quote Today
-              </h2>
+              
               <p className="text-lg text-slate-600">
                 Let's discuss your project and bring your vision to life
               </p>
@@ -261,11 +259,9 @@ export default function HomePage() {
                       <div>
                         <div className="font-medium text-slate-900">Email</div>
                         <div className="text-slate-600">
-                          info@eliteinteriors.com
+                        tharuns5807@gmail.com
                         </div>
-                        <div className="text-slate-600">
-                          sales@eliteinteriors.com
-                        </div>
+                       
                       </div>
                     </div>
 
@@ -278,36 +274,27 @@ export default function HomePage() {
                           Address
                         </div>
                         <div className="text-slate-600">
-                          123 Design Avenue
-                          <br />
-                          Business District, NY 10001
+                         # 30.Prop No.31, 1st Floor, Bannerghatta Sub Post Office, Bannerghatta Main Road.
+Bengaluru-560 083
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <Card className="bg-gradient-to-br from-emerald-50 to-blue-50 border-2 border-emerald-100">
-                  <CardContent className="p-6">
-                    <h4 className="font-semibold text-slate-900 mb-3">
-                      Business Hours
-                    </h4>
-                    <div className="space-y-2 text-slate-700">
-                      <div className="flex justify-between">
-                        <span>Monday - Friday</span>
-                        <span className="font-medium">8:00 AM - 6:00 PM</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>Saturday</span>
-                        <span className="font-medium">9:00 AM - 4:00 PM</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>Sunday</span>
-                        <span className="font-medium">Closed</span>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
+              <Card className="bg-gradient-to-br from-emerald-50 to-blue-50 border-2 border-emerald-100">
+  <CardContent className="p-6">
+    <h4 className="font-semibold text-slate-900 mb-3">
+      Business Hours
+    </h4>
+
+    <div className="flex justify-between text-slate-700">
+      <span>Monday - Sunday</span>
+      <span className="font-medium">Open 24/7</span>
+    </div>
+
+  </CardContent>
+</Card>
               </div>
             </div>
           </div>
