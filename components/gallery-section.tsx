@@ -6,6 +6,9 @@ import Image from 'next/image'
 
 import office from "./assets/office.jpeg"
 import blinds from "./assets/blinds.jpeg"
+import carpet from "./assets/carpet.jpeg"
+import vinyl from "./assets/vinyl.jpeg"
+import sofa from "./assets/sofa.jpeg"
 const galleryItems = [
   {
     category: 'Furniture',
@@ -21,28 +24,28 @@ const galleryItems = [
   },
   {
     category: 'Flooring',
-    image:office,
+    image:vinyl,
     title: 'Luxury Vinyl Planks',
     description: 'Waterproof vinyl flooring with realistic wood texture',
   },
   {
     category: 'Carpet',
-    image:office,
+    image:carpet,
     title: 'Corporate Carpet Tiles',
     description: 'Modular carpet solution for a modern office space',
   },
   {
     category: 'Furniture',
-    image:office,
+    image:sofa,
     title: 'Living Room Transformation',
     description: 'Premium sofas and accent chairs for residential project',
   },
-  {
-    category: 'Flooring',
-    image:office,
-    title: 'Porcelain Tile Installation',
-    description: 'High-end ceramic tiles for kitchen and bathroom',
-  },
+  // {
+  //   category: 'Flooring',
+  //   image:office,
+  //   title: 'Porcelain Tile Installation',
+  //   description: 'High-end ceramic tiles for kitchen and bathroom',
+  // },
 ];
 
 export function GallerySection() {
