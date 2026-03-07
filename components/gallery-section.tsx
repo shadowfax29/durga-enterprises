@@ -2,7 +2,9 @@
 
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import Image from 'next/image'
 
+import office from "./assets/office.jpeg"
 const galleryItems = [
   {
     category: 'Furniture',
@@ -58,8 +60,12 @@ export function GallerySection() {
               <div className="relative aspect-video bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center p-6">
-                   <img src='./assets/office'/>
-                  </div>
+<Image
+      src={office}
+      width={500}
+      height={500}
+      alt="Picture of the author"
+    />                  </div>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
