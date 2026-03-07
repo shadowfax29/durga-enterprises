@@ -68,11 +68,12 @@ export function GallerySection() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center p-6">
 <Image
-      src={item.image}
-      width={500}
-      height={500}
-      alt="Picture of the author"
-    />                  </div>
+  src={item.image}
+  alt={item.title}
+  fill
+  className="object-cover group-hover:scale-105 transition-transform duration-300"
+/>
+                 </div>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
