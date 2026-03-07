@@ -1,5 +1,6 @@
 'use client';
-
+import durgalogo from "../components/assets/durgalogo.png"
+import Image from 'next/image'
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -33,7 +34,14 @@ export default function HomePage() {
       <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center space-x-2">
-            <Layers className="h-6 w-6 text-emerald-600" />
+
+<Image
+  src={durgalogo}
+  alt="logo"
+  width={40}
+  height={40}
+  className="object-contain"
+/>
             <span className="text-xl font-bold text-slate-900">
               Durga Enterprises
             </span>
@@ -61,7 +69,7 @@ export default function HomePage() {
               onClick={scrollToContact}
               className="bg-emerald-600 hover:bg-emerald-700"
             >
-              Get Quote
+              Contact
             </Button>
           </nav>
           <Button
