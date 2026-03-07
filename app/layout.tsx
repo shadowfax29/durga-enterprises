@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Durga Enterprises - Premium Furnishing & Flooring Solutions | Chairs, Sofas, Blinds, Vinyl Flooring',
   description: 'Transform your space with expert craftsmanship. We provide chairs, sofas, rolling blinds, vertical blinds, vinyl flooring, tiles, carpet rolls, and carpet tiles for residential and corporate spaces. Professional installation, competitive pricing, and warranty protection.',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   keywords: [
     'furniture supplier',
     'office chairs',
@@ -172,7 +177,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
