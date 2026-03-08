@@ -110,21 +110,21 @@ export default function RootLayout({
     name: 'Durga Enterprises',
     description: 'Premium furnishing and flooring solutions for residential and corporate spaces',
     url: 'https://durgaenterprises.com',
-    telephone: '+1-555-123-4567',
-    email: 'info@durgaenterprises.com',
+    telephone: '+91 9901179913',
+    email: 'tharuns5807@gmail.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '123 Design Avenue',
-      addressLocality: 'Business District',
-      addressRegion: 'NY',
-      postalCode: '10001',
-      addressCountry: 'US',
+      streetAddress: '# 30.Prop No.31, 1st Floor',
+      addressLocality: 'Bannerghatta Sub Post Office, Bannerghatta Main Road',
+      addressRegion: 'BA',
+      postalCode: '560083',
+      addressCountry: 'IN',
     },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: '40.7128',
-      longitude: '-74.0060',
-    },
+    // geo: {
+    //   '@type': 'GeoCoordinates',
+    //   latitude: '40.7128',
+    //   longitude: '-74.0060',
+    // },
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
