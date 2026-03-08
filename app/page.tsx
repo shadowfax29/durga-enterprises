@@ -307,8 +307,13 @@ Bengaluru-560 083
             <div className="grid md:grid-cols-4 gap-8 mb-8">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
-                  <Layers className="h-6 w-6 text-emerald-400" />
-                  <span className="text-xl font-bold text-white">
+<Image
+  src={durgalogo}
+  alt="logo"
+  width={64}
+  height={64}
+  className="object-contain"
+/>                  <span className="text-xl font-bold text-white">
                     Durga Enterprises
                   </span>
                 </div>
