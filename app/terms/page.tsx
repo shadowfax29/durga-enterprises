@@ -151,9 +151,9 @@ export default function TermsPage() {
               For questions about these Terms of Service, please contact us at:
             </p>
             <div className="mt-3 text-slate-700">
-              <p>Email: info@durgaenterprises.com</p>
-              <p>Phone: +1 (555) 123-4567</p>
-              <p>Address: 123 Design Avenue, Business District, NY 10001</p>
+              <p>Email: tharuns5807@gmail.com</p>
+              <p>Phone: +91 9901179913</p>
+              <p>Address: # 30.Prop No.31, 1st Floor, Bannerghatta Sub Post Office, Bannerghatta Main Road, Bengaluru-560 083</p>
             </div>
           </section>
         </div>

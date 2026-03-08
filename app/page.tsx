@@ -333,7 +333,7 @@ Bengaluru-560 083
                 </ul>
               </div>
 
-              <div>
+              {/* <div>
                 <h4 className="font-semibold text-white mb-4">Company</h4>
                 <ul className="space-y-2 text-sm">
                   <li>About Us</li>
@@ -341,14 +341,13 @@ Bengaluru-560 083
                   <li>Testimonials</li>
                   <li>Contact</li>
                 </ul>
-              </div>
+              </div> */}
 
               <div>
                 <h4 className="font-semibold text-white mb-4">Legal</h4>
                 <ul className="space-y-2 text-sm">
-                  <li>Privacy Policy</li>
-                  <li>Terms of Service</li>
-                  <li>Warranty Information</li>
+                  <li><a href="/privacy" className="hover:text-emerald-400 transition-colors">Privacy Policy</a></li>
+                  <li><a href="/terms" className="hover:text-emerald-400 transition-colors">Terms of Service</a></li>
                 </ul>
               </div>
             </div>
